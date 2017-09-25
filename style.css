@@ -101,6 +101,10 @@ url('images/hero.jpg');
 height: 480px;
 background-repeat: no-repeat;
 background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .hero-heading,
@@ -108,10 +112,13 @@ background-size: cover;
 font-family: 'Roboto Condensed', sans-serif;
 color: white;
 text-align: center;
+display: flex;
+
 }
 .hero-heading {
 font-weight: bold;
 font-size: 42px
+
 }
 .subheading {
 text-transform: uppercase;
