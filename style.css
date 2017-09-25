@@ -49,12 +49,7 @@ table {
 h1, h2 {
 font-family: 'Roboto Condensed', sans-serif;
 }
-.mono {
-font-family: 'Roboto Mono', monospace;
-}
-.copy {
-font-family: 'Gorgia', serif;
-}
+
 /*header*/
 .siteheader {
 background-color: #03151c;
@@ -123,4 +118,77 @@ font-size: 42px
 .subheading {
 text-transform: uppercase;
 font-size: 21px;
+}
+
+.bod {
+background-color: #14e9b6;
+}
+
+.the-abs {
+width: 90%;
+margin: 0 auto;
+padding: 80px 0 150px;
+}
+
+.contentheader {
+font-family: 'Roboto Condensed', sans-serif;
+color: #021d2c;
+font-size: 27px;
+font-weight: bold;
+}
+
+.mono {
+font-family: 'Roboto Mono', monospace;
+font-weight: 18px;
+color: #021d2c;
+line-height: 1.5;
+
+
+}
+
+.copy {
+font-family: 'Gorgia', serif;
+font-size: 16px;
+line-height: 1.2;
+color: #021d2c;
+}
+
+
+ .the-abs .content-header,
+ .the-abs .mono,
+ .the-abs .copy {
+display: flex;
+flex-direction: column;
+
+
+ }
+
+
+.flex-row {
+display: flex;
+
+}
+
+
+.the-abs .content-header {
+margin: 15px 0;
+
+
+}
+
+.the-abs .mono {
+margin: 15px 0;
+
+
+}
+
+.flex-row .copy {
+margin: 15px;
+}
+
+.flex-row .copy:first-of-type {
+margin-left: 0px;
+
+
+
 }
