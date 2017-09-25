@@ -151,6 +151,44 @@ font-family: 'Gorgia', serif;
 font-size: 16px;
 line-height: 1.2;
 color: #021d2c;
+}
+
+
+ .the-abs .content-header,
+ .the-abs .mono,
+ .the-abs .copy {
+display: flex;
+flex-direction: column;
+
+
+ }
+
+
+.flex-row {
+display: flex;
+
+}
+
+
+.the-abs .content-header {
+margin: 15px 0;
+
+
+}
+
+.the-abs .mono {
+margin: 15px 0;
+
+
+}
+
+.flex-row .copy {
+margin: 15px;
+}
+
+.flex-row .copy:first-of-type {
+margin-left: 0px;
+
 
 
 }
