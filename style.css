@@ -49,12 +49,7 @@ table {
 h1, h2 {
 font-family: 'Roboto Condensed', sans-serif;
 }
-.mono {
-font-family: 'Roboto Mono', monospace;
-}
-.copy {
-font-family: 'Gorgia', serif;
-}
+
 /*header*/
 .siteheader {
 background-color: #03151c;
@@ -135,10 +130,27 @@ margin: 0 auto;
 padding: 80px 0 150px;
 }
 
-.fourpack {
+.contentheader {
 font-family: 'Roboto Condensed', sans-serif;
 color: #021d2c;
 font-size: 27px;
+font-weight: bold;
+}
+
+.mono {
+font-family: 'Roboto Mono', monospace;
+font-weight: 18px;
+color: #021d2c;
+line-height: 1.5;
+
+
+}
+
+.copy {
+font-family: 'Gorgia', serif;
+font-size: 16px;
+line-height: 1.2;
+color: #021d2c;
 
 
 }
